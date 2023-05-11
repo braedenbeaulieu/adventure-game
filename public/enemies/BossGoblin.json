@@ -1,0 +1,17 @@
+{
+    "name": "Boss Goblin",
+    "rank": "Boss",
+    "attacks": [
+        {
+            "name": "Crush",
+            "initiative": 75,
+            "energyNeeded": 2,
+            "damage": 50
+        }
+    ],
+    "stats": {
+        "hp": "100",
+        "energy": "7",
+        "strength": "80"
+    }
+}

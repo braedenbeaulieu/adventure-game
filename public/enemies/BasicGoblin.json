@@ -1,0 +1,17 @@
+{
+    "name": "Basic Goblin",
+    "rank": "Basic",
+    "attacks": [
+        {
+            "name": "Swipe",
+            "initiative": 25,
+            "energyNeeded": 1,
+            "damage": 10
+        }
+    ],
+    "stats": {
+        "hp": "60",
+        "energy": "6",
+        "strength": "40"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "title": "First one",
+    "scenarios": [
+        {
+            "title": "Scenario 1",
+            "rooms": [
+                {
+                    "introduction": "You have arrived at the very first scenario. There are two goblins blocking your path. They think they can rob you for all you've got, will you let them?",
+                    "enemies": [
+                        {
+                            "name": "Goblin",
+                            "rank": "Basic"
+                        },
+                        {
+                            "name": "Goblin",
+                            "rank": "Basic"
+                        }
+                    ],
+                    "onComplete": ["start_next_room"]
+                },
+                {
+                    "introduction": "Nice work taking care of those ruffians. Ohh wait... here comes their leader!",
+                    "enemies": [
+                        {
+                            "name": "Goblin",
+                            "rank": "Boss"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
